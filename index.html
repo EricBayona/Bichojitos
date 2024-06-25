@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bichojitos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="body">
+    <canvas id="canvas-complex"></canvas>
+    <header>
+        <button id="modo-oscuro">oscuro</button>
+        <nav>
+            <a href="index.html"><img src="img/logoPequeño.png" alt="logo" id="logo"></a>
+            <div>
+                <button id="todos" class="boton-menu boton-categria active">Todos los productos</button>
+                <button id="peluches" class="boton-menu boton-categria">Peluches</button>
+                <button id="flores" class="boton-menu boton-categria">Flores</button>
+                <button id="chenille" class="boton-menu boton-categria">Chenille</button>
+                <button id="llavero" class="boton-menu boton-categria">Llaveros</button>
+                <a class="boton-carrito" href="carrito.html">
+                    <i class="bi bi-cart-fill"></i><span id="numerito" class="numerito">0</span>
+                </a>
+                <a class="boton-ingreso" href="registro.html">
+                    <i class="bi bi-person-fill"></i>
+                </a>
+            </div>
+        </nav>
+        <div class="headerResponsive">
+            <a href="index.html"><img src="img/logoPequeño.png" alt="logo" id="logo"></a>
+            <div class="iconoResponsive-carrito"><button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+            <a class="boton-carrito" href="carrito.html">
+                <i class="bi bi-cart-fill"></i><span id="numerito" class="numerito">0</span>
+            </a></div>
+            <nav class="nav" id="nav">
+                <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+                <ul class="nav-list">
+                    <li><button id="todos" class="boton-menu boton-categria active">Todos los productos</button></li>
+                    <li><button id="peluches" class="boton-menu boton-categria">Peluches</button></li>
+                    <li><button id="flores" class="boton-menu boton-categria">Flores</button></li>
+                    <li><button id="chenille" class="boton-menu boton-categria">Chenille</button></li>
+                    <li><button id="llavero" class="boton-menu boton-categria">Llaveros</button></li>
+                    <li><a href="form.html">Pedidos Personalizados</a></li>
+                    <li><a class="boton-carrito" href="carrito.html">
+                        <i class="bi bi-cart-fill"></i>Carrito<span id="numerito" class="numerito">0</span>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 id="titulo-pincipal" class="titulo-pincipal">Todos los Productos</h2>
+        <div id="contenedor-productos" class="contenedor-productos">
+
+        </div>
+
+    </main>
+    <footer>
+        <div>
+            <a href="index.html"><img src="img/logoPequeño.png" alt="logo" id="logo"></a>
+        </div>
+        <div>
+            <ul>
+                <li>Direccion: Aguilares-Tucuman</li>
+                <li>Cel: (03865) 11-22-33</li>
+                <li>E-mail: selene@bichojitos.com</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><h4>Redes Sociales</h4></li>
+                <li><h5><a class="redsoc" href="https://www.facebook.com/bichojitosAmigurumis/" target="_blank">Facebook <i class="fa fa-facebook" aria-hidden="true"></i></a></h5></li>
+                <li><h5><a class="redsoc" href="https://www.instagram.com/bichojitos.amigurumis/" target="_blank">Instagram <i class="fa fa-instagram" aria-hidden="true"></i></a></h5></li>
+                <li><h5><a class="redsoc" href="https://www.youTube.com" target="_blank">YouTube<i class="fa fa-youtube" aria-hidden="true"></i></a></h5></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li><a href="form.html">Pedidos Personalizados</a><li>
+                <li><a href="#">Cotizaciones</a></li>
+                <li><a href="sobreNosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.min.js" integrity="sha512-CmlPTWm5+a1Gt2YSNk2rGZVvbH3Zge6imS7M4/vrhC8d+A1RcehmLxWMqUdv8aEu7pwfTo74EtnrR+8Cf8KdCA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/index.js"> </script>
+</body>
+</html>
